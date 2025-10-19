@@ -6,6 +6,11 @@ def get_book_text(path_to_file):
 def main():
     path_to_file = "books/frankenstein.txt"
     the_text = get_book_text(path_to_file)
-    print(the_text)
+    #print(the_text)
+
+#starting a counter here
+    splitter = the_text.split()
+    splitcounter = len(splitter)
+    print(f"Found {splitcounter} number of words")
 main() 
 
