@@ -11,6 +11,6 @@ def main():
 #starting a counter here
     splitter = the_text.split()
     splitcounter = len(splitter)
-    print(f"Found {splitcounter} number of words")
+    print(f"Found {splitcounter} total words")
 main() 
 
