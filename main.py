@@ -1,5 +1,9 @@
 from stats import get_num_words
 
+import stats
+print("stats file:", stats.__file__)
+print("has func:", hasattr(stats, "get_num_words"))
+print("argcount:", stats.get_num_words.__code__.co_argcount)
 
 def main():
     book_path = "books/frankenstein.txt"
